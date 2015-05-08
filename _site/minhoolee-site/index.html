@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+  <head>  
+    <link rel="stylesheet" href="/css/bootstrap.css">  
+   	<link rel="stylesheet" href="/css/codeacademy.css">
+	<link rel="stylesheet" href="/css/particles.css">
+	<link rel="stylesheet" href="/font-awesome-4.3.0/css/font-awesome.css">
+  </head>
+	
+    <body>	
+	<!-- JavaScript for particles -->
+	<div id="particles-js">
+		<span class="fa-2x minhoo-header">
+			<h1>Min Hoo Lee</h1>
+		</span>
+	</div>
+		
+	<!-- Website made from CSS and Bootstrap -->
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">About me</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Achievements</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Min Hoo Lee</h1>
+        <p>The 10x Programmer</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div> 
+    
+    <div class="neighborhood-guides">
+        <div class="container">
+            <h2>South Korea</h2>
+            <p>Here are some beautiful pictures of the scenery in South Korea.</p>      
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://upload.wikimedia.org/wikipedia/commons/f/f7/Korea-Jejudo-Coast-03.jpg">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://korea.panduanwisata.id/files/2012/12/51b2f5134aa3976525.jpg">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://www.remotelands.com/images/itinerary_more/131211003.jpg">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="http://www.etraveltrips.com/blog/wp-content/uploads/2012/10/Seoul-South-Korea.jpg">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://www.intercooleronline.com/wp-content/uploads/2015/02/seoul-korea-2.jpg">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>Background</h3>
+			<p>Min Hoo Lee</p>
+			<p>Korean American</p>
+			<p><a href="#">See more</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Skills</h3>
+			<p>Programming Languages: Java, C++, Python, HTML, CSS, JavaScript</p>
+			<p><a href="#">See more</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Education</h3>
+			<p>Elementary: Garden Gate Elementary School</p>
+			<p>Middle: Sam H. Lawson Middle School</p>
+			<p>High: Monta Vista High School</p>
+			<p><a href="#">See more</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+		
+	<!-- Load javascript for Trianglify -->
+	<script src="/js/trianglify.min.js"></script>
+	<script>
+		var pattern = Trianglify({
+			variance: 0.75,
+			seed: null,
+			x_colors: 'PuOr', // Purple - Orange
+			y_colors: 'match_x',
+			palette: Trianglify.colorbrewer,
+			color_space: 'lab',
+			color_function: false,
+			stroke_width: 1.51, 
+			width: 1500,
+			height: 800,
+			cell_size: 40});
+		document.body.appendChild(pattern.canvas());
+
+/*		var pattern = Trianglify({
+			height: 300,
+			width: 300,
+			cell_size: 40});
+		document.body.appendChild(pattern.canvas());
+*/	</script> 
+		
+	<!-- load javascript for particles -->
+    <script src="/js/particles.js"></script>
+	<script src="/js/app.js"></script> 
+  </body>
+</html>
+
