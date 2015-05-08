@@ -1,0 +1,17 @@
+#particles-js {
+    height: 100%;
+    height: 100vh;
+
+    background: #762BC1;
+}
+
+<!-- TODO: Implement Font Awesome into the hero text -->
+.minhoo-header {
+	position: absolute;
+	left: 600px;
+	top: 350px;
+	font-size: 48px;
+	font-style: bold;
+	font-family: FontAwesome;
+	color: white;
+}
