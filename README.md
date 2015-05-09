@@ -22,3 +22,5 @@ git add _README.md_
 git commit -m "first commit"  
 git remote add origin _https://github.com/minhoolee/Git-Test-2.git_  
 git push -u origin master
+
+#### Github commands as described in [Github](https://github.com/WebDevStudios/CLI-Cheat-Sheet/blob/master/git-commands.md):
