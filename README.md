@@ -8,10 +8,8 @@ jekyll serve
 
 ## How to make a repository and push it upstream
 #### _Italics_ means optional.
-#### Described in links  
-[http://stackoverflow.com/questions/1960799/using-git-and-dropbox-together-effectively](http://stackoverflow.com/questions/1960799/using-git-and-dropbox-together-effectively)
-#### and  
-[http://stackoverflow.com/questions/19312622/git-push-vs-git-push-origin-branchname](http://stackoverflow.com/questions/19312622/git-push-vs-git-push-origin-branchname):
+#### Described in links [Stackoverflow Thread A](http://stackoverflow.com/questions/1960799/using-git-and-dropbox-together-effectively)
+#### and  [Stackoverflow Thread B](http://stackoverflow.com/questions/19312622/git-push-vs-git-push-origin-branchname):
 > git init  
 git add .  
 git commit -m "commit text"  
@@ -19,8 +17,7 @@ git remote add origin _remote repository url_
 _git remote -v_  
 git push -u origin master
 
-#### Described in  
-[https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/): 
+#### Described in [Github Help Article](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/): 
 > _echo "# Git-Test-2" >> README.md_  
 git init  
 git add _README.md_  
@@ -28,5 +25,4 @@ git commit -m "first commit"
 git remote add origin _https://github.com/minhoolee/Git-Test-2.git_  
 git push -u origin master
 
-#### Github commands as described in  
-[https://github.com/WebDevStudios/CLI-Cheat-Sheet/blob/master/git-commands.md](https://github.com/WebDevStudios/CLI-Cheat-Sheet/blob/master/git-commands.md):
+#### Github commands as described in [Github Command Sheet](https://github.com/WebDevStudios/CLI-Cheat-Sheet/blob/master/git-commands.md):
