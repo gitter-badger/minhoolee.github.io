@@ -8,8 +8,8 @@ jekyll serve
 
 ## How to make a repository and push it upstream
 #### _Italics_ means optional.
-#### Described in links 
-#### [http://stackoverflow.com/questions/1960799/using-git-and-dropbox-together-effectively](http://stackoverflow.com/questions/1960799/using-git-and-dropbox-together-effectively)
+#### Described in links  
+[http://stackoverflow.com/questions/1960799/using-git-and-dropbox-together-effectively](http://stackoverflow.com/questions/1960799/using-git-and-dropbox-together-effectively)
 #### and
 #### [http://stackoverflow.com/questions/19312622/git-push-vs-git-push-origin-branchname](http://stackoverflow.com/questions/19312622/git-push-vs-git-push-origin-branchname):
 > git init  
