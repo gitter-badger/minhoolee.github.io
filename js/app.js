@@ -66,3 +66,17 @@ particlesJS('particles-js', {
   /* Retina Display Support */
   retina_detect: true
 });
+
+var pattern = Trianglify({
+	variance: 0.75,
+	seed: null,
+	x_colors: 'PuOr', // Purple - Orange
+	y_colors: 'match_x',
+	palette: Trianglify.colorbrewer,
+	color_space: 'lab',
+	color_function: false,
+	stroke_width: 1.51, 
+	width: 1500,
+	height: 800,
+	cell_size: 40});
+document.body.appendChild(pattern.canvas());

@@ -5,13 +5,22 @@
     background: #762BC1;
 }
 
-<!-- TODO: Implement Font Awesome into the hero text -->
+<!-- Adamas Regular Font -->
+<!--
+@font-face {
+	font-family: 'adamasRegular';
+	src: url('Adamas-Regular.otf');
+}
+-->
+
 .minhoo-header {
 	position: absolute;
-	left: 600px;
-	top: 350px;
-	font-size: 48px;
+	left: 300px;
+	top: 300px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 150px;
 	font-style: bold;
-	font-family: FontAwesome;
-	color: white;
+	text-shadow: 4px 4px 4px #333;
+	font-weight: 700;
+	color: #FFFFFF;
 }
