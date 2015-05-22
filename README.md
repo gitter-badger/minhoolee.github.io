@@ -1,6 +1,7 @@
 # Min Hoo Lee's Website
 This repository holds the config files I used to locally host my website using **Brackets** and **Jekyll**.  
-I can host using **Github Pages** as well at _minhoolee.github.io_.
+I can host using **Github Pages** as well at [minhoolee.github.io](minhoolee.github.io).
+I also redirected the github.io domain to [minhoolee.paperplane.io](minhoolee.paperplane.io).
 
 ## How to run using Jekyll
 > jekyll build _--watch_  

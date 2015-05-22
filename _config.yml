@@ -1,11 +1,11 @@
 # Site settings
 title: Min Hoo Lee
-email: lunkyfunky@gmail.com
+email: minhoo2000@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 This site is a experimental test of Min Hoo's skill at HTML and CSS coding. Please excuse the suckyness.:
 baseurl: "http://127.0.0.1:4000/#" # the subpath of your site, e.g. /blog
-url: "http://minhoo.lee" # the base hostname & protocol for your site
-twitter_username: 
+url: "minhoolee.paperplane.io" # the base hostname & protocol for your site
+twitter_username: minhoolee115
 github_username:  minhoolee
 
 # Build settings
