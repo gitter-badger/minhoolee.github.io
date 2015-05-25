@@ -1,4 +1,6 @@
 # Min Hoo Lee's Website
+
+[![Join the chat at https://gitter.im/minhoolee/minhoolee.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/minhoolee/minhoolee.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This repository holds the config files I used to locally host my website using **Brackets** and **Jekyll**.  
 I can host using **Github Pages** as well at [minhoolee.github.io](minhoolee.github.io).
 I also redirected the github.io domain to [minhoolee.paperplane.io](minhoolee.paperplane.io).
